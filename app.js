@@ -343,6 +343,8 @@ global.Simulator = require('./simulator.js');
 
 global.Tournaments = require('./tournaments');
 
+global.MoneyCommands = require('./money-commands.js');
+
 try {
 	global.Dnsbl = require('./dnsbl.js');
 } catch (e) {
